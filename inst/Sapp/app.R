@@ -1,9 +1,9 @@
 
 
-source("ui.R")
+#source("ui.R")
 
 # Define server logic required to draw a histogram ----
-server <- function(input, output) {
+shinyServer(function(input, output, session) {
 
   # Histogram of the Old Faithful Geyser Data ----
   # with requested number of bins
@@ -24,7 +24,7 @@ server <- function(input, output) {
 
     })
 
-}
+})
 
 # Create Shiny app ----
-shinyApp(ui = ui, server = server)
+#shinyApp(ui = ui, server = server)
