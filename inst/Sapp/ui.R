@@ -1,7 +1,7 @@
 
 
 # Define UI for app that draws a histogram ----
-fluidPage(
+ui <- fluidPage(
 
   # App title ----
   titlePanel("Hello Shiny!"),
