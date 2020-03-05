@@ -1,7 +1,7 @@
 
 
 # Define UI for app that draws a histogram ----
-ShinyUI( fluidPage(
+shinyUI( fluidPage(
 
   # App title ----
   titlePanel("Hello Shiny!"),
